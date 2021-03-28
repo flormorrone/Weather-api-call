@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="logo" href="#">
+            <h1 class="titulo"><span class="typed"></span></h1>
+        </a>
+    </nav>
+    <div class="container">
+        <div class="container__input">
+            <h3> Ingrese ciudad</h3>
+            <input id="searchInput" type="text" class="form-control" placeholder="Enter city name" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="container__result" id="profile">
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Flor Morrone.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
